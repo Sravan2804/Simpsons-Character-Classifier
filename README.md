@@ -50,3 +50,29 @@ Input: 80x80 grayscale image
 [Conv2D → ReLU → Conv2D → ReLU → MaxPooling → Dropout] × 3
 → Flatten → Dropout → Dense(1024, ReLU) → Dense(10, Softmax)
 
+```
+## 📚 Notebook
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/Sravan2804/Simpsons-Character-Classifier/blob/main/simpsons_classifier.ipynb)
+
+> ⚠️ This notebook uses a Kaggle dataset. To run it on Colab:
+> 
+> 1. Upload the dataset manually or use `kaggle.json` API key.
+> 2. Uncomment and run the following in the first cell:
+> 
+> ```python
+> !pip install -q kaggle
+> from google.colab import files
+> files.upload()  # Upload kaggle.json here
+> 
+> !mkdir ~/.kaggle
+> !cp kaggle.json ~/.kaggle/
+> !chmod 600 ~/.kaggle/kaggle.json
+> 
+> !kaggle datasets download -d alexattia/the-simpsons-characters-dataset
+> !unzip the-simpsons-characters-dataset.zip -d ./data
+> ```
+
+
+
