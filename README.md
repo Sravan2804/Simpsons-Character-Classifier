@@ -54,7 +54,7 @@ Input: 80x80 grayscale image
 ## 📚 Notebook
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/github/Sravan2804/Simpsons-Character-Classifier/blob/main/simpsons_classifier.ipynb)
+(https://colab.research.google.com/github/Sravan2804/Simpsons-Character-Classifier/blob/main/simpsons-classifier.ipynb)
 
 > ⚠️ This notebook uses a Kaggle dataset. To run it on Colab:
 > 
